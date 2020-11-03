@@ -1,0 +1,165 @@
+
+/* jeg sætter margin på 0% for at fjerne alt "space" som er rundt om 'the body tag' */
+body {
+margin:0%;
+background-color: #FFE4C4;
+z-index: -1;
+}
+img {
+width: 150%;
+  height: 100vh;
+}
+
+/* styling the top nav*/
+nav {display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%; 
+position: absolute;
+z-index: 1;
+}
+
+ul {
+display: flex;
+}
+
+nav a {
+background-color: #d7b5a3;
+margin: 1px;
+padding: 1px 16px;
+}
+
+nav li {
+list-style-type: none;
+}
+
+nav .current {
+background-color: #ac9a7b;
+}
+
+/*her bestemmer jeg hvordan flex-boxes skal sidde i flex-containeren*/
+.flex-container {
+display: flex;
+}
+
+/*'previous'-knap placering*/
+.flexbox1 {
+padding-top: 300px;
+}
+
+.previous {
+position: absolute;
+left: 0;
+z-index: 5;
+}
+
+/* giver teksten style */
+p {
+margin: 10%;
+margin-top: 20%;
+margin-right: 50%;
+background-color: #fbe4e0;
+opacity: 0.9;
+color: #845b2b;
+letter-spacing: 3px;
+text-align: left;
+font-family: sans-serif;
+position: absolute;
+top: 10px;
+z-index: 2;
+}
+
+/*'next'-knap placering*/
+.flexbox3 {
+padding-top: 300px;
+}
+
+.next {
+position: absolute;
+right: 0;
+z-index: 5;
+}
+
+/*styler knapperne*/
+.next {
+  padding: 8px 16px;
+font-size: 20px;
+background-color: #ae7548;
+  color: #e0d1c2;
+border:none;
+
+}
+
+.previous {
+ padding: 8px 16px;
+font-size: 20px;
+background-color: #ae7548;
+  color: #e0d1c2;
+border:none;
+}
+
+.previous:hover {
+background: #e0d1c2;
+color: #ac9a7b;
+}
+
+.next:hover {
+background: #e0d1c2;
+color: #ac9a7b;
+}
+
+.flexbox5 {
+position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden
+}
+
+
+/*baggrund video fuldstørrelse*/
+.flexbox5 video {
+ top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+
+h1 {
+margin: 10%;
+margin-top: 20%;
+margin-right: 50%;
+background-color: #fbe4e0;
+opacity: 0.9;
+position: relative;
+font-family: 'Sofia';
+font-size: 40px;
+color: #845b2b;
+letter-spacing: 3px;
+text-align: left;
+z-index: 1;
+}
+
+.flexbox4 {
+margin: 10%;
+margin-top: 370px;
+justify-content: flex-start;
+z-index: 5;
+}
+
+.besog-hjemmeside-knap {
+position: fixed;
+ padding: 8px 16px;
+font-size: 20px;
+background-color: #ae7548;
+  color: #e0d1c2;
+border:none;
+}
+
+.besog-hjemmeside-knap:hover {
+background: #e0d1c2;
+color: #ac9a7b;
+}
